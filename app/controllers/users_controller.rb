@@ -1,3 +1,5 @@
+# mnewton 02/12/2012
+
 class UsersController < ApplicationController
   def show
   	@user = User.find(params[:id])
@@ -16,4 +18,4 @@ class UsersController < ApplicationController
       render 'new'
     end
   end
-end
+end 
