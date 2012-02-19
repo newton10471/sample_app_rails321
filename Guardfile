@@ -33,8 +33,8 @@ end
 
 # cucumber setup is a direct copy and paste from http://www.arailsdemo.com/posts/51
 # mnewton 02/15/2012
-guard 'cucumber' do
-  watch(%r{features/.+\.feature})
-  watch(%r{features/support/.+})          { 'features' }
-  watch(%r{features/step_definitions/(.+)_steps\.rb}) { |m| Dir[File.join("**/#{m[1]}.feature")][0] || 'features' }
-end
+#guard 'cucumber' do
+#  watch(%r{features/.+\.feature})
+#  watch(%r{features/support/.+})          { 'features' }
+#  watch(%r{features/step_definitions/(.+)_steps\.rb}) { |m| Dir[File.join("**/#{m[1]}.feature")][0] || 'features' }
+#end
